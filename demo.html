@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1170px;
+            padding: 0 15px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .nav {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .header-nav {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            list-style: none;
+            /* margin-left: auto; */
+        }
+
+        .cmn-btn {
+            font-size: 16px;
+            padding: 12px 30px;
+            border-radius: 6px;
+            border: 1px solid #333;
+            display: inline-block;
+            font-weight: 600;
+            text-transform: uppercase;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .cmn-btn:hover {
+            background-color: red;
+            color: #fff;
+        }
+
+        button {
+            font-size: 16px;
+            padding: 12px 30px;
+            border-radius: 6px;
+            border: 1px solid #333;
+            display: inline-block;
+            font-weight: 600;
+            text-transform: uppercase;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            outline: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: red;
+            color: #fff;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        .logo {
+            width: 216px;
+            display: block;
+        }
+
+        .header-nav li {
+            margin: 0 15px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .header-nav li a {
+            font-size: 16px;
+            font-weight: 400;
+            color: #333;
+            line-height: 1;
+            padding: 15px 0;
+            display: inline-block;
+        }
+
+        .header-nav li a:hover,
+        .header-nav li.current-menu-item a {
+            color: blue;
+        }
+
+        .com-gap {
+            padding: 100px 0;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -15px;
+        }
+
+        .col-lg-6 {
+            padding: 0 15px;
+            width: 50%;
+        }
+
+        .section img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .section .row {
+            align-items: center;
+        }
+
+        .section .row:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        h1,
+        .heading-1 {
+            font-size: 45px;
+            font-weight: 600;
+            color: #333;
+            line-height: 1.1;
+            margin: 0 0 20px;
+        }
+
+        h2,
+        .heading-2 {
+            font-size: 35px;
+            font-weight: 600;
+            color: #333;
+            line-height: 1.1;
+            margin: 0 0 20px;
+            color: var(--red);
+        }
+
+        h3,
+        .heading-3 {
+            font-size: 30px;
+            font-weight: 600;
+            color: #333;
+            line-height: 1.1;
+            margin: 0 0 20px;
+        }
+
+        h4,
+        .heading-4 {
+            font-size: 26px;
+            font-weight: 600;
+            color: #333;
+            line-height: 1.1;
+            margin: 0 0 20px;
+        }
+
+        h5,
+        .heading-5 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #333;
+            line-height: 1.1;
+            margin: 0 0 20px;
+        }
+
+        h6,
+        .heading-6 {
+            font-size: 18px;
+            font-weight: 600;
+            color: #333;
+            line-height: 1.1;
+            margin: 0 0 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#" class="logo"><img src="image/image (1).png" alt=""></a>
+                <ul class="header-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Home</a></li>
+                </ul>
+                <div class="header-right">
+                    <a href="#" class="cmn-btn">Contact</a>
+                    <!-- <button type="button">Button</button> -->
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="section com-gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="image/image (1).png" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <div class="inner-content">
+                        <h2>Lorem ipsum dolor, sit amet consectetur </h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eligendi eum nam ducimus
+                            maiores quisquam voluptates consequatur quasi soluta et dignissimos rerum placeat enim, hic
+                            quaerat officiis error ea accusamus.</p>
+                        <a href="#" class="cmn-btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="image/image (1).png" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <div class="inner-content">
+                        <h2>Lorem ipsum dolor, sit amet consectetur </h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eligendi eum nam ducimus
+                            maiores quisquam voluptates consequatur quasi soluta et dignissimos rerum placeat enim, hic
+                            quaerat officiis error ea accusamus.</p>
+                        <a href="#" class="cmn-btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="image/image (1).png" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <div class="inner-content">
+                        <h2>Lorem ipsum dolor, sit amet consectetur </h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eligendi eum nam ducimus
+                            maiores quisquam voluptates consequatur quasi soluta et dignissimos rerum placeat enim, hic
+                            quaerat officiis error ea accusamus.</p>
+                        <a href="#" class="cmn-btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="image/image (1).png" alt="">
+                </div>
+                <div class="col-lg-6">
+                    
+                    <div class="inner-content">
+                        <h2>Lorem ipsum dolor, sit amet consectetur </h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eligendi eum nam ducimus
+                            maiores quisquam voluptates consequatur quasi soluta et dignissimos rerum placeat enim, hic
+                            quaerat officiis error ea accusamus.</p>
+                        <a href="#" class="cmn-btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
